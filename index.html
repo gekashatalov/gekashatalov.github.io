@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Boclean</title>
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png"/>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <nav class="menu">
+                <div class="nav_logo--container">
+                    <img src="./img/logo.jpg" class="nav_logo" alt="logo">
+                    <span>Чистота -<br> наша професія</span>
+                </div>
+                <div class="navIcon">
+                    <div id="nav-icon1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <ul class="nav_list">
+                    <li>
+                        <a href="#title-3">
+                            Порядок проведення роботи
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#title-4">
+                            Вартість
+                        </a>
+                    </li>
+                    <!-- <li>
+                        <a href="#title-6">
+                            Додаткові послуги
+                        </a>
+                    </li> -->
+                    <li>
+                        <a href="#title-7">
+                            Топ запитаннь
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#title-8">
+                            Контакти 
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="section_cover">
+                <div class="wrapper">
+                    <div class="section_cover_text">
+                        <h1>
+                            Хімчистка м'яких
+                            меблів
+                        </h1>
+                        <p class="test">
+                            Заповніть форму нижче, щоб прорахувати попередню вартість чистки меблів 
+                            та допомогти нашому менеджеру провести якісну консультацію під Ваш запит
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section_cover_form">
+            <form class="form" id="form_first" method="POST" enctype="multipart/form-data">
+                <div class="wrapper_form">
+                    <div class="left">
+                        <div class="radio">
+                            <p class="form_title">
+                                Для чого потрібна хімчистка?
+                            </p>
+                            <div class="style_radio">
+                                <div class="form_radio">
+                                    <input type="radio" id="radio-1" name="type" value="Диван" checked> 
+                                    <label for="radio-1">
+                                        <span class="round"></span>
+                                        Диван
+                                    </label>
+                                </div>
+                                <div class="form_radio">
+                                    <input type="radio" id="radio-2" name="type" value="Крісло">
+                                    <label for="radio-2">
+                                        <span class="round"></span>
+                                        Крісло
+                                    </label>
+                                </div>
+                                <div class="form_radio">
+                                    <input type="radio" id="radio-3" name="type" value="Матрац">
+                                    <label for="radio-3">
+                                        <span class="round"></span>
+                                        Матрац
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <p class="form_title">
+                                Додаткові послуги
+                            </p>
+                            <div class="style_check">
+                                <div class="form_checkbox">
+                                    <input type="checkbox" id="check-1" name="service_1" value="Подушка">
+                                    <label for="check-1">
+                                        <span class="check"></span>
+                                        Подушка
+                                    </label>
+                                </div>
+                                <div class="form_checkbox">
+                                    <input type="checkbox" id="check-2" name="service_2" value="Нестандартний диван">
+                                    <label for="check-2">
+                                        <span class="check"></span>
+                                        Нестандартний диван
+                                    </label>
+                                </div>
+                                <div class="form_checkbox">
+                                    <input type="checkbox" id="check-3" name="service_3" value="Дизинфекція пароочисником">
+                                    <label for="check-3">
+                                        <span class="check"></span>
+                                        Усунення неприємного запаху
+                                    </label>
+                                </div>
+                                <div class="form_checkbox">
+                                    <input type="checkbox" id="check-4" name="service_4" value="М'яке узголів'я та обід ліжка">
+                                    <label for="check-4">
+                                        <span class="check"></span>
+                                        М'яке узголів'я та обід ліжка
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="departure">
+                            <p class="departure_text">
+                                * Мінімальне замовлення на виїзну хімчистку від 1000 грн.
+                               <br> * Виїзд майстра безкоштовний</br>
+                                
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="form_to_fill">
+                            <label for="name">
+                                <span class="form_name">
+                                    Ім'я
+                                </span>
+                            </label>
+                            <input class="shape" type="text" id="name" name="name">
+                            <label for="phone">
+                                <span class="form_name">
+                                    Телефон
+                                </span>
+                            </label>
+                            <input class="shape" type="tel" id="form_phone_1" name="phone" placeholder="Ваш телефон">
+                            <div class="left_right">
+                                <p class="price">
+                                    Ціна хімчистки: від  
+                                    <span class="number">
+                                        600 грн
+                                    </span>
+                                </p>
+                                <input class="form_submit" type="submit" name="button" value="Замовити">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section>
+            <div class="wrapper">
+                <div class="section_content">
+                    <div class="section_content_img">
+                        <img src="./img/rwrrhh.png">
+                    </div>
+                    <div class="content_text">
+                        <h2>
+                            Навіщо потрібна хімчистка меблів?
+                           
+                        </h2>
+                        <p class="text_content">
+                            За допомогою хімчистки з оббивки диванів видаляються плями, засоленості, чорнила, 
+                            фарби та багато інших видів забруднень, у тому числі й неприємні запахи. 
+                            Очищена поверхня стає значно яскравішою та світлішою, і виглядає як нова, у 
+                            тому випадку якщо диван остаточно не запущений. Чищення диванів особливо необхідне людям 
+                            із захворюваннями дихальних шляхів, адже пил і шерсть тварин, які накопичуються на поверхні
+                            меблів і проникають у її оббивку, створюють сприятливі умови для розмноження домашнього кліща. 
+                            А він, у свою чергу, провокує сильні напади кашлю та загострення алергії, що ускладнює дихання. 
+                            Регулярне чищення меблів допомагає запобігти появі цього шкідливого для здоров'я людини 
+                            мікроорганізму.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <div class="section_content">
+                    <div class="section_square_items">
+                        <div class="section_square_items_left">
+                            <img src="./img/free-icon-cleaning-3898973.png">
+                            <div class="section_square_items_left_title">
+                                <p>
+                                    Якісна хімія
+                                </p>
+                            </div>
+                            <div class="section_square_items_left_p">
+                                <p>
+                                    Ми використовуємо лише професійні, перевірені і надійні засоби для чищення
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section_square_items_left">
+                            <img src="./img/premium-icon-vacuum-cleaner-1687421.png">
+                            <div class="section_square_items_left_title">
+                               <p>
+                                    Обладнання
+                               </p> 
+                            </div>
+                            <div class="section_square_items_left_p">
+                                <p>
+                                    Використовуємо техніку для клінінгу від найкращих світових виробників
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section_square_items_left">
+                            <img src="./img/free-icon-housekeeper-1909637.png">
+                            <div class="section_square_items_left_title">
+                               <p>
+                                    Працівники
+                               </p> 
+                            </div>
+                            <div class="section_square_items_left_p">
+                                <p>
+                                    Всі наші працівники, ретельно перевірені і добре навчені
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section_square_items_left">
+                            <img src="./img/free-icon-house-2797659.png">
+                            <div class="section_square_items_left_title">
+                               <p>
+                                    Якість роботи
+                               </p> 
+                            </div>
+                            <div class="section_square_items_left_p">
+                               <p>
+                                    Гарантуємо відминний результат та професійну якість
+                               </p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section_square_item_right">
+                        <h2>
+                            Чому саме ми?
+                        </h2>
+                        <p class="text_content">
+                            <span class="clean">
+                                Bo Clean
+                            </span>
+                            - це високоякісне професійне обладнання та якісні засоби для чищення меблів, 
+                            яких немає в магазинах. Ми повністю присвячує 
+                            себе досягненню фантастичних результатів.
+                            <br><br>
+                            Наша працьовитість, навички та досвід те,
+                            що справді відрізняє Boclean від інших.
+                            <br><br>
+                            Почищено понад 3000 тисяч одиниць меблів.
+                            Близько 4000 годин проведено на замовленнях.
+                            Тисячі задоволених клієнтів.
+                            <br><br>
+                            Професійне хімчістка меблів: дайте знати нашим співробітникам який результат 
+                            Ви бажаєте отримати, решта – справа команди.
+                        </p>
+                        <div class="section_square_item_right_block">
+                            <a href="#">
+                                Хімчистка м'яких меблів в середньому займає 2-3 години
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <div class="section_content">
+                    <div class="section_text_left">
+                        <a id="title-3"></a>
+                        <div class="section_text_left_img">
+                            <img src="./img/upholstery-cleaning-banner-update.png">
+                        </div>
+                    </div>
+                    <div class="section_text_right">
+                        <h2>
+                            Порядок проведення роботи нашими фахівцями
+                               
+                        </h2>
+                        <p class="text_content">
+                            Насамперед проводиться огляд меблів, матеріалу та методу його очищення. 
+                            Після цього необхідно визначити рівень забруднення, на першому етапі проводиться 
+                            сухе чищення м'яких меблів. Потім проводиться перевірка матеріалу на стійкість 
+                            та переносимість до хімікатів, після цього переходять до видалення стійких 
+                            забруднень. Проводиться глибока чистка матеріалу, усунення неприємного 
+                            запаху. Промивання та просушування виробу.
+                            Завдяки потужному пилососу, який поглинає всю рідину після збирання, 
+                            для висихання м'яких меблів знадобиться зовсім мало часу. 
+                            Для остаточного висихання меблів потрібно близько 4-8 годин.
+                            <br><br>
+                            Хімчистка м'яких меблів повинна проводитись тільки професіоналами, 
+                            тому що наявності спеціалізованих засобів у цьому випадку недостатня. 
+                            Важливо мати інформацію про те, як один або інший засіб вплине на матеріал.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <div class="section_price">
+                    <div class="section_price_top">
+                        <div class="section_price_top_text">
+                            <a id="title-4"></a>
+                            <h2>
+                                Як розрахувати вартість 
+                                хімчистки меблів?
+                            </h2>
+                            <p class="text_content paragraph">
+                                Як правило <span class="text_accent">ми просимо надіслати фото або відео Ваших меблів</span>
+                                нам у <a href="https://t.me/boclean" class="text-link" target="_blank" rel="noopener noreferrer">телеграм</a> для точної оцінки вартості. 
+                                Для самостійного орієнтовного розрахунку вартості хімчистки 
+                                пропонуємо ознайомитись з таблицею ранжування цін.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section_price_bottom">
+                        <div class="section_price_bottom_item">
+                            <img src="./img/sofa2.png">
+                            <p class="text_content">
+                                Диван на 2 посадочних місця
+                            </p>
+                            <span class="price">
+                                500-600 грн
+                            </span>
+                        </div>
+                        <div class="section_price_bottom_item">
+                            <img src="./img/sofa3.png">
+                            <p class="text_content">
+                                Диван на 3 посадочних місця
+                            </p>
+                            <span class="price">
+                                850-1000 грн
+                            </span>
+                        </div>
+                        <div class="section_price_bottom_item">
+                            <img src="./img/armchair.png">
+                            <p class="text_content">
+                                Маленьке/Велике 
+                                крісло
+                            </p>
+                            <span class="price">
+                                400-600 грн
+                            </span>
+                        </div>
+                        <div class="section_price_bottom_item">
+                            <img src="./img/chair.png">
+                            <p class="text_content">
+                                Стілець 
+                                зі спинкою(без) 
+                            </p>
+                            <span class="price">
+                                100-150 грн
+                            </span>
+                        </div>
+                        <div class="section_price_bottom_item">
+                            <img src="./img/sofa4.png">
+                            <p class="text_content">
+                                Кутовий диван на 4 посадочних місця
+                            </p>
+                            <span class="price">
+                                1100-1300 грн
+                            </span>
+                        </div>
+                        <div class="section_price_bottom_item">
+                            <img src="./img/mattress2.png">
+                            <p class="text_content">
+                                Двоспальний
+                                матрац
+                            </p>
+                            <span class="price">
+                                800-900 грн
+                            </span>
+                        </div>
+                        <div class="section_price_bottom_item">
+                            <img src="./img/mattress2.png">
+                            <p class="text_content">
+                                Односпальний/Полуторний матрац
+                            </p>
+                            <span class="price">
+                                600-800 грн
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <div class="section_content">
+                    <div class="section_text_left">
+                        <div class="section_text_left_img">
+                            <img src="./img/Centrale-Vapeur.png">
+                        </div>
+                    </div>
+                    <div class="section_text_right">
+                        <h2 id="title-7">
+                            Топ запитаннь                                  
+                        </h2>
+                        <p class="text_content">
+                            1. Скільки часу сохне диван після хімчистки?
+                            <br>В середньому 4-8 годин (залежить від матеріалу, ступеня забрудненості меблів і т.д).
+                            <br>2. Чи потрібно якось підготувати меблі до чищення?
+                            Нічого особливого робити не потрібно, можете просто прибрати зайві речі,
+                            щоб був безперешкодний доступ до меблів.
+                            <br>3. Всі плями, розводи та запахи підуть з меблів?
+                            Результат багато в чому залежить від дій господарів та матеріалу виробу.
+                            Якщо меблі не сильно забруднені, то плями, розлучення та запахи підуть
+                            із ймовірністю 90-98%. Якщо меблі самостійно чистилися побутовою хімією,
+                            затиралася щітками без промивання, і все це відбувалося неодноразово,
+                            то шанси привести меблі в відповідний вигляд - 50-70%.
+                            <br>4. Наскільки безпечна хімчистка меблів
+                            Засоби якими ми працюємо; сертифіковані, гіпоалергенні та абсолютно безпечні
+                            для дорослих, дітей, тварин та довкілля.
+                            <br>5. Де проводиться чищення?
+                            Чищення меблів, матраців, килимів та килимових покриттів проводиться у вас вдома.
+                            Виїзд містом безкоштовний
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <div class="section_services">
+                    <div class="section_services_top">
+                        <a id="title-6"></a>
+                        <h2>
+                            Додаткові послуги
+                        </h2>
+                        <p class="text_content paragraph">
+                            Для того щоб хімчистка меблів була ще більш ефективною рекомендуємо доукомплектувати 
+                            її додатковими послугами:
+                        </p>
+                    </div>
+                    <div class="section_services_bottom">
+                        <div class="section_services_bottom_item">
+                            <img src="./img/premium-icon-pillow-911728.png">
+                            <div class="section_services_bottom_item_block">
+                                <p class="text_content">
+                                    Хімчистка 
+                                    <br>
+                                    подушки
+                                </p>
+                                <span class="price">
+                                    від 50 грн
+                                </span>
+                            </div>
+                        </div>
+                        <div class="section_services_bottom_item">
+                            <img src="./img/free-icon-no-virus-2913471.png">
+                            <div class="section_services_bottom_item_block"> 
+                                <p class="text_content">
+                                    Усунення неприємного  
+                                    <br>
+                                    запаху
+                                </p>
+                                <span class="price">
+                                    200 грн
+                                </span>
+                            </div>   
+                        </div>
+                        <div class="section_services_bottom_item">
+                            <img src="./img/free-icon-double-bed-1074088.png">
+                            <div class="section_services_bottom_item_block"> 
+                                <p class="text_content">
+                                    Узголів'я та 
+                                    <br>
+                                    обід ліжка
+                                </p>
+                                <span class="price">
+                                    від 400 грн
+                                </span>
+                            </div>    
+                        </div>
+                        <div class="section_services_bottom_item">
+                            <img src="./img/free-icon-sofa-114613.png">
+                            <div class="section_services_bottom_item_block"> 
+                                <p class="text_content">
+                                    Нестандартний 
+                                    <br>
+                                    диван
+                                </p>
+                                <span class="price">
+                                    від 1000 грн
+                                </span>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <div class="section_not_working">
+                    <div class="section_not_working_block">
+                        <h2>
+                            <img src="./img/free-icon-caution-4539072.png">
+                            З якими матеріалами ми не працюємо?
+                        </h2>
+                        <p class="text_content paragraph">
+                            Ми не працюємо зі шкіряними меблями (натуральна шкіра/екошкіра).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="section_cover_clean">
+                <div class="wrapper column">
+                    <div class="section_cover_clean_left">
+                        <h2>
+                            Залишились питання?
+                        </h2>
+                        <p class="const">
+                            Замов консультацію
+                        </p>
+                    </div>
+                    <form class="section_cover_clean_form" id="form_second" method ="post" name="test">
+                        <label for="name">
+                            <span class="form_name">
+                                Ім'я
+                            </span>
+                        </label>
+                        <input class="shape" type="text" id="name" name="name">
+                        <label for="phone">
+                            <span class="form_name">
+                                Телефон
+                            </span>
+                        </label>
+                        <input class="shape" type="tel" id="form_phone_2" name="phone" placeholder="Ваш телефон" >
+                        <input class="form_submit" type="submit" name="button" value="Замовити">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="footer_block">
+                <div class="footer_block_left">
+                    <h3>
+                        Про нас
+                    </h3>
+                    <p class="text_content text">
+                        Знаємо про хімчистку все, 
+                        завдяки багаторічному досвіду та прагненню пізнавати нове та розвиватися;
+                        гарантуємо якість виконання будь-якої послуги, незалежно від її обсягу та складності;
+                        дорожимо клієнтами та своєю репутацією.
+                    </p>
+                </div>
+                <div class="footer_block_right">
+                    <div class="footer_block_right_address">
+                        <h3 id="title-8"> 
+                            Наші контакти
+                        </h3>
+                        <p class="text_content text">
+                            <a href="tel:+380973553013">+380973553013</a>
+                        </p>
+                        <p class="text_content text">
+                            <a href="tel:+380637250890">+380637250890</a>
+                        </p>
+                        <p class="text_content text">
+                            <a href="https://t.me/boclean"><img src="./img/tg.png" alt="tg" width="35" height="35"></a>
+                            <a href="viber://chat?number=380973553013"><img src="./img/viber.png" alt="tg" width="35" height="35"></a>
+                        </p> 
+                    </div>
+                    <div class="footer_block_right_schedule">
+                        <h3>
+                            Графік роботи
+                        </h3>
+                        <p class="text_content text">
+                            ПН–ПТ: 08:00–23:00
+                        </p>
+                        <p class="text_content text">
+                            СБ: 08:00–22:00
+                        </p>
+                        <p class="text_content text">
+                            ВС: 08:00–22:00
+                        </p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="popup_thanks" class="inform-popup">
+        <div class="popup-thanks-container">
+            <h2>Дякуємо за заявку!</h2>
+            <p class="text_content">Найближчим часом з Вами зв'яжеться менеджер</з>
+        </div>
+    </div>
+    <div id="popup_error" class="inform-popup">
+        <div class="popup-thanks-container">
+            <h2>Виникла помилка!</h2>
+            <p class="text_content">Спробуйте ще раз або зв'яжіться з нами за телефоном:
+                <br>
+                <br>
+                <a href="tel:+380973553013">+380973553013</a>
+                <br>
+                <a href="tel:+380973553013">+380637250890</a>
+            </p>
+        </div>
+    </div>
+    <!-- <script src="./js/jquery-3.6.0.min.js"></script> -->
+    <script src="./js/all.min.js"></script>
+</body>
+</html>
